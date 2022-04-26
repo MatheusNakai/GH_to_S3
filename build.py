@@ -4,7 +4,7 @@ import shutil
 def build():
 
     #create venv
-    os.system("python -m venv venv; source venv/bin/activate; pip install -r lambda_function/requirements.txt; mkdir upload ; ls ; cd venv ; ls ; cp lambda_function\gh_to_s3.py venv\lib\Python3.6\site-packages")
+    os.system("python -m venv venv; source venv/bin/activate; pip install -r lambda_function/requirements.txt; mkdir upload ; cd venv ; cd lib ;ls ; cp lambda_function\gh_to_s3.py venv\lib\Python3.6\site-packages")
 
 #     #activate venv
 #     os.system("")
